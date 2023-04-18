@@ -12,7 +12,7 @@ app.use('/',require('./routes/index'));
 
 const start = async() =>{
     try {
-        const url = 'mongodb://localhost:27017/product_db';
+        const url = 'mongodb+srv://10442rishika:gL0jyPkUMeJRbGET@cluster1.kjnkcgf.mongodb.net/test';
         await connectDB(url);
         console.log("connected to db");
         app.listen(port,function(){
