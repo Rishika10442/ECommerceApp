@@ -1,6 +1,9 @@
+//https://ecommerce-api-fyo0.onrender.com
+//https://www.youtube.com/watch?v=aVS6ooe65wc
+
 const express = require('express');
 const app = express();
-const port = 8000;
+const port = 5000;
 const path= require('path');
 const connectDB=require('./config/mongoose');
 const bodyParser=require('body-parser')
